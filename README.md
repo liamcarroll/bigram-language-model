@@ -1,10 +1,8 @@
-# CA4023 - Natural Language Technologies - Assignment 1
-
-This repository contains all code and data for the first assignment in CA4023, Natural Language Technologies. The instructions for this assignment are available [here](https://loop.dcu.ie/pluginfile.php/3575713/mod_resource/content/1/CA4023_Assignment1.pdf).
+# Simple Bigram Language Model in Python
 
 ## Description of Corpus Used
 
-The corpus which I used for Part Three of the assignment was the open access **SCEPA** corpus (**S**mall **C**orpus of **E**nglish **P**olitical **A**pologies). The corpus was downloaded from [here](http://www.helsinki.fi/varieng/CoRD/corpora/SCEPA/index.html). The corpus is in XML format and contains political apologies/excuses from politicians in the US, UK and Canada. There is also a substantial amount of metadata associated with each apology such as the date, author, gender of author, country of author, link(s) to source of excuse, reason of apology and also the communicative tactics used in apologies. For the purpose of sentence generation however, only the textual data of each apology was required. There are 232 apologies in the corpus which contain 1,220 sentences, after processing, for a total of 22,538 words.
+The corpus which I used was the open access **SCEPA** corpus (**S**mall **C**orpus of **E**nglish **P**olitical **A**pologies). The corpus was downloaded from [here](http://www.helsinki.fi/varieng/CoRD/corpora/SCEPA/index.html). The corpus is in XML format and contains political apologies/excuses from politicians in the US, UK and Canada. There is also a substantial amount of metadata associated with each apology such as the date, author, gender of author, country of author, link(s) to source of excuse, reason of apology and also the communicative tactics used in apologies. For the purpose of sentence generation however, only the textual data of each apology was required. There are 232 apologies in the corpus which contain 1,220 sentences, after processing, for a total of 22,538 words.
 
 ## Appraisal of Generated Sentences
 
